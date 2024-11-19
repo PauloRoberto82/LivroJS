@@ -5,6 +5,7 @@ const subtracao = num1 - num2;
 const multiplicacao = num1 * num2;
 const divisao = num1 / num2;
 const elevado = Math.pow(num1, num2);
+const elevado2 = num1**num2
 
 
 alert("A soma do número é: " + soma);
@@ -12,3 +13,4 @@ alert("A subtração do número é: " + subtracao);
 alert("A multiplicação do número é: " + multiplicacao);
 alert("A divisão do número é: " + divisao);
 alert("O número elevado ao quadrado é: " + elevado);
+alert("O número elevado ao quadrado é: " + elevado2);
