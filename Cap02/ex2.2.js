@@ -20,6 +20,6 @@ const horas = Math.floor(duracao/60) // arredonda para baixo resultado
 const minutos = duracao % 60 // resto da divisao
 
 resp1.innerText = titulo //exibe as respostas
-resp2.innerText = `${horas} horas e ${minutos} minuto(s)` 
+resp2.innerText = `${horas} hora(s) e ${minutos} minuto(s)` 
 e.preventDefault() //evita o envio do form
 })
