@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {background-color: gray;}
+        #inVeiculo{border-radius: 10px; border:2px solid black;}
+        #inPreco{border-radius: 10px; border:2px solid black;}
+        #button{border-radius:10px; border:2px solid black;background-color: rgb(191, 242, 225);}
+        .fr{
+            padding-left: 800px;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+    <div class="fr"> 
+    <h1>Revenda de Veículos JS</h1>
+    <form>
+       <p>Veículos:
+        <input type="text" id="inVeiculo" required>
+       </p>
+       <p> Preço R$:
+        <input type="number" id="inPreco" required>
+       </p>
+       <input id="button" type="submit" value="Ver Promocao">
+    </form>
+    <br><br>
+    <h3 id="outResp1"></h3>
+    <h3 id="outResp2"></h3>
+    <h3 id="outResp3"></h3>
+    <h3 id="outResp4"></h3>
+
+</div>
+    <script src="ex2.3.js"> </script>
+
+</body>
+</html>
