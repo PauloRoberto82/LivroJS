@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        #produto{
+            border-radius: 10px; border:2px solid black;
+        }
+        
+        #tempo{ 
+            border-radius: 10px; border:2px solid black;
+        }
+        
+        #button{
+            text-align: center;
+            width: 100px; 
+            height:30px;
+            border-radius:10px; 
+            border:2px solid rgb(11, 11, 11);background-color: rgb(41, 155, 200);
+        }
+        
+        h3{
+            background-image: linear-gradient(to right, rgb(192, 210, 225), transparent);
+        }
+    </style>
+    <title>Capitulo 2</title>
+</head>
+
+<body>
+    
+ <h1>Supermercado JS</h1>
+ <form action="">
+    <p> Produto:
+        <input type="text" id="produto" required></p>
+
+    <p> Preço R$: 
+       <input type="number" id="tempo" min="0" step="0.01" required></p>
+
+    <p> <input id="button" type="submit" value="promocao"></p>
+    
+</form>
+
+<h3 id="pr"> </h3>
+<h3 id="pr2"> </h3>
+
+    <script src="ex2.7.js">
+        
+    </script>
+
+</body>
+
+</html>
