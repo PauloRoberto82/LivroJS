@@ -2,6 +2,7 @@
 
 const frm = document.querySelector("form")
 const resp = document.querySelector("h3")
+const resp2 = document.querySelector("h2")
 
 
 
@@ -16,13 +17,25 @@ frm.addEventListener("submit", (e) => {
     
     let peso //declara a variavel peso
     if (masculino) {
-        peso = 22 * Math.pow(altura,2)
+        peso = 22 * (altura,2)
     }else{
-        peso = 21 * Math.pow(altura,2)
+        peso = 21 * (altura,2)
     }
+    
 
     //apresenta a resposta ao conteudo do elemento h3 da página
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(2)}kg` //exibe a media das notas
-  
+
+    //Operador ternário
+    let peso2 = masculino ? 22 * (altura,2) : 21 * (altura,2)
+    
+    //resposta do operador ternário
+    resp2.innerText = `${nome}: Seu peso ideal é ${peso2.toFixed(2)}kg` //exibe a media das notas
+    resp2.style.color ="green"
+
+
+})
+frm.addEventListener("reset", () => {
+    resp.innerText = ""//limpa o conteúdo do elemento h3 que exibe a resposta 
 })
 
