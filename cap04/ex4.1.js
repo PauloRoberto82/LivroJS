@@ -16,20 +16,15 @@ frm.addEventListener("submit", (e) => {
     const media = (nota1 + nota2) / 2 //calcula a media
 
     if (media >= 7) {
-        resp2.innerText = `Parabéns ${nome}!,Você foi Aprovado(a)`
-        resp2.style.color = "#33FF33"
+        resp2.innerHTML = `Parabéns ${nome}!, Você foi <span style="color: #33FF33;">Aprovado(a)</span>`;
     } else if (media < 7 && media >= 4) {
-        resp2.innerText = `${nome} você ficou de Recuperação`
-        resp2.style.color = "#FFFF00"
+        resp2.innerHTML = `${nome} você ficou de <span style="color: #FFFF00;">Recuperação</span>`;
     } else {
-        resp2.innerText = `${nome} Infelizmente você foi Reprovado(a)`
-         resp2.style.color = "#B30000"
+        resp2.innerHTML = `${nome} infelizmente você foi <span style="color: #FF0000;"> Reprovado(a)</span>`
+       
     }
 
-
-
-
-    resp1.innerText = `Media das notas: ${media}` //exibe a media das notas
+    resp1.innerText = `Media das suas notas: ${media}` //exibe a media das notas
 
 
 
