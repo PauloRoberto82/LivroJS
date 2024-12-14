@@ -1,0 +1,42 @@
+@charset "utf-8" ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+}
+
+img.normal { 
+    float:left;
+    height:300px;
+    width:300px;
+}
+
+img.alta{
+    float:left;
+    height:320px;
+    width:200px;
+}
+
+h1{
+    border-bottom-style:inset ;
+}
+
+pre{
+    font-size: 1.2em;
+}
+
+.fonte-azul{
+    color:blue;
+}
+.oculta{
+    display:none;
+}
+.exibe{
+    display:inline;
+}
+.italico{
+    font-style:italic;
+}
