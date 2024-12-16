@@ -52,3 +52,7 @@ frm.inNumero.value = "" //limpa o campo de entrada
 frm.inNumero.focus() //posiciona cursor neste campo
 
 })
+
+frm.btNovo.addEventListener("click", ()=>{
+    location.reload()//recarrega a página
+})
