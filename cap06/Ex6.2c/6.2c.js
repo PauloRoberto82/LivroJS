@@ -32,6 +32,22 @@ if (numero == sorteado) {//se acertou
         
         respErros.innerText = `${numErros} (${erros.join(",")})` //exibe nº de erros e números já apostados
         respChances.innerText = numChances
+        if (numChances == 5) {
+            respDica.innerText = `Você tem ${numChances} chances restantes.`
+            respChances.style.color = "green"
+        } else if (numChances == 4) {
+            respDica.innerText = `Você tem ${numChances} chances restantes.`
+            respChances.style.color = "yellow"
+        } else if (numChances == 3) {
+            respDica.innerText = `Você tem ${numChances} chances restantes.`
+            respChances.style.color = "orange"
+            } else if (numChances == 2) {
+                respDica.innerText = `Você tem ${numChances} chances restantes.`
+                respChances.style.color = "red"
+                } else if (numChances == 1) {
+                    respDica.innerText = `Você tem ${numChances} chance restante.`
+                    respChances.style.color = "red"
+                    } 
         
         if(numChances == 0){ //se não houver mais chances
         alert("Suas chances acabaram...")
