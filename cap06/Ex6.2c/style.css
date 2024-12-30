@@ -1,0 +1,69 @@
+body {
+    background-color: darkgray;
+    }
+    .form,p,h1,h3{
+        text-align: center;
+    }
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 700;
+        background-image: linear-gradient(to right, #1ab0f1, #0d8896);
+    }
+    h3{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #btSubmit{
+        background-color: #4CAF50;
+        color: black;
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        font-size:20px ;
+        border: 2px solid black;
+    }
+    #btNovo{
+        background-color: #dac315;
+        color: black;
+        border-radius: 10px;
+        width: 140px;
+        height: 25px;
+        float:center;
+        font-size: medium;
+        border: 2px solid black;
+
+        
+    }
+    #inNumero{
+        border-radius: 10px;
+        width: 100px;
+        height: 20px;
+        border: 2px solid black;
+    }
+
+    .painel{
+        text-align: center;
+        background-color: rgb(98, 94, 94);
+        border-radius: 10px;
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    #ercha{
+        margin-left: -10px;
+        width: 320px;
+        color: rgb(12, 12, 12);
+        font-size: 20px;
+        font-weight: 700;
+        background-image: linear-gradient(to right, #17d4d4, #14bfd2);
+        border-radius: 10px;
+    }
