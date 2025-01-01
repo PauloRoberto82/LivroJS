@@ -16,3 +16,14 @@ for (const amigo of amigos2) {
 if (amigos2.length === 0) {
     console.log("Nenhum amigo encontrado")
 }
+
+const numeros2 = [10,13,20,8,15]
+const soma = numeros2.reduce((acumulador, num) => acumulador + num, 0) //inicializa o acumulador com
+console.log(soma) //66
+
+
+let acumulador = 0
+for (const num of numeros2){
+    acumulador  = acumulador + num
+}
+console.log(acumulador) 
